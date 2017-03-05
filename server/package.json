@@ -1,9 +1,9 @@
 {
-  "name": "node-todo",
+  "name": "Meaun",
   "version": "0.0.0",
-  "description": "Simple todo application.",
+  "description": "Meaun Stack.",
   "main": "server.js",
-  "author": "Scotch",
+  "author": "VictorNovais",
   "dependencies": {
     "body-parser": "^1.4.3",
     "connect-flash": "*",
