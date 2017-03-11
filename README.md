@@ -16,6 +16,7 @@ The base project is 'contact-manager' made with "Get Started" tutorial by Aureli
 - NPM
 - MongoDB (You can get a 500mb free tier at https://mlab.com)
 - Gulp
+- Aurelia-CLI
 
 ## Get Started
 
@@ -24,6 +25,10 @@ The base project is 'contact-manager' made with "Get Started" tutorial by Aureli
 - Make sure you have **gulp** installed globally:
 ```shell
 npm install gulp-cli -g
+```
+- Make sure you have **Aurelia-CLI** installed globally:
+```shell
+npm install aurelia-cli -g
 ```
 - Download or clone this repository
 - Enter in the **'server'** directory and run:
