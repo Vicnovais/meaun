@@ -5,7 +5,7 @@ Full-stack web development with MongoDB, Express, Aurelia and Node
 
 Also contains a simple authentication made with PassportJS
 
-The base project is 'contact-manager' made with "Get Started" tutorial by Aurelia.
+The base project is ['contact-manager'](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/contact-manager-tutorial/1) made with "Get Started" tutorial by Aurelia.
 
 ## Warning
 - This is a work in progress project, not recommended to be run at production
