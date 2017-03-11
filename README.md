@@ -63,7 +63,11 @@ http://localhost:8080/signout
   3. Using Mongoose schema, map your model properties. (You can find a mongoose tutorial at http://mongoosejs.com/docs/guide.html)
 - Adding a controller:
   1. Navigate to server/controllers
-  2. Add a new .js file with your controller name. Note that you have to follow this rule for a new controller file name: NAMEController.js, that is if your model has the name 'Employee', your controller name should be EmployeeController.js
+  2. Add a new .js file with your controller name. Note that you have to follow this rule for a new controller file name:
+  ```
+  NAMEController.js
+  That is if your model has the name 'Employee', your controller name should be EmployeeController.js
+  ```
   3. As you can see in UserController.js present in this project, you must require the model and the base controller, then you can simply export your controller using the BaseController.buildBaseController method
   4. That's it. All API routes are automatically created when you restart the project, and then you'll have access to the following routes:
   ```
