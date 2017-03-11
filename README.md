@@ -58,25 +58,30 @@ http://localhost:8080/signout
 ## API
 - To register a new endpoint you need a model and a controller
 - Adding a model:
-  1. Navigate to server/models
-  2. Add a new .js file with your model name, you can use as basis the user or group model already created in this project
-  3. Using Mongoose schema, map your model properties. (You can find a mongoose tutorial at http://mongoosejs.com/docs/guide.html)
+-- Navigate to server/models
+-- Add a new .js file with your model name, you can use as basis the user or group model already created in this project
+-- Using Mongoose schema, map your model properties. (You can find a mongoose tutorial at http://mongoosejs.com/docs/guide.html)
+
 - Adding a controller:
-  4. Navigate to server/controllers
-  5. Add a new .js file with your controller name. Note that you have to follow this rule for a new controller file name:
+-- Navigate to server/controllers
+-- Add a new .js file with your controller name. Note that you have to follow this rule for a new controller file name:
   ```
   NAMEController.js
   That is if your model has the name 'Employee', your controller name should be EmployeeController.js
   ```
-  6. As you can see in UserController.js present in this project, you must require the model and the base controller, then you can simply export your controller using the BaseController.buildBaseController method
-  7. That's it. All API routes are automatically created when you restart the project, and then you'll have access to the following routes:
+-- As you can see in UserController.js present in this project, you must require the model and the base controller, then you can simply export your controller using the BaseController.buildBaseController method
+-- That's it. All API routes are automatically created when you restart the project, and then you'll have access to the following routes:
   ```
   [GET] localhost:8080/api/ControllerName -> retrieve all registers
+  Example: localhost:8080/api/user
+  
   [GET] localhost:8080/api/ControllerName/id -> retrieve a single register based on id
+  Example: localhost:8080/api/user/58c454fc43c3c01ca8fb03ff
+  
   [POST] localhost:8080/api/ControllerName -> post a new register using JSON format (for testing, you may use a program to make the post request, as PostMan or any other you may use)
   [DELETE] localhost:8080/api/ControllerName -> delete all registers
   [DELETE] localhost:8080/api/ControllerName -> delete a single register based on id
   ```
-  8. Note that you can manipulate all this actions, or add new ones, editing the file present in server/arch/RestBuilder.js and server/controllers/BaseController.js
-  9. Note that these routes are secured, which means you must be authenticated to be able to access them.
+-- Note that you can manipulate all this actions, or add new ones, editing the file present in server/arch/RestBuilder.js and server/controllers/BaseController.js
+-- Note that these routes are secured, which means you must be authenticated to be able to access them.
   
