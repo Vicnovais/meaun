@@ -2,6 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Full-stack web development with MongoDB, Express, Aurelia and Node
+
 Also contains a simple authentication made with PassportJS
 
 The base project is 'contact-manager' made with "Get Started" tutorial by Aurelia.
