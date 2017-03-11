@@ -71,7 +71,7 @@ http://localhost:8080/signout
   That is if your model has the name 'Employee', your controller name should be EmployeeController.js
   ```
   * As you can see in **UserController.js** present in this project, you must require the **model** and the **base controller**, then you can simply export your controller using the **BaseController.buildBaseController** function
-  * That's it. All API routes are automatically created when you restart the project, and then you'll have access to the following routes:
+  * That's it. All API routes are automatically created when you restart the project, and then you'll have access to the following routes: (for testing, you may use a program to make the requests, as [PostMan](https://www.getpostman.com/) or any other you use)
   ```
   [GET] localhost:8080/api/ControllerName -> retrieve all registers
   Example: localhost:8080/api/user
@@ -79,7 +79,7 @@ http://localhost:8080/signout
   [GET] localhost:8080/api/ControllerName/id -> retrieve a single register based on id
   Example: localhost:8080/api/user/58c454fc43c3c01ca8fb03ff
   
-  [POST] localhost:8080/api/ControllerName -> post a new register using JSON format (for testing, you may use a program to make the post request, as PostMan or any other you may use)
+  [POST] localhost:8080/api/ControllerName -> post a new register using JSON format
   [DELETE] localhost:8080/api/ControllerName -> delete all registers
   [DELETE] localhost:8080/api/ControllerName -> delete a single register based on id
   ```
