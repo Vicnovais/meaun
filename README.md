@@ -41,4 +41,4 @@ gulp
 ```
 http://localhost:8080
 ```
-- All file changes to client *.ts files will be listen, so you just need to wait to aurelia rebuild the bundles and reload your page
+- All changes to client *.ts files will be listen, so you just need to wait to aurelia rebuild the bundles and reload your page
