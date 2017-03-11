@@ -86,3 +86,7 @@ http://localhost:8080/signout
  * Note that you can manipulate all this actions, or add new ones, editing the file present in **server/arch/RestBuilder.js** and **server/controllers/BaseController.js**
   * Note that these routes are secured, which means you must be authenticated to be able to access them.
   
+  ## Final Considerations
+  - As said, this is a work in progress, which means it has many bugs, but it works and shows how to link Aurelia to NodeJS
+  - Feel free to contribute, may it be solving bugs, emitting issues or adding new features
+  - Enjoy!
