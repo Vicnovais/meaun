@@ -9,7 +9,6 @@ The base project is ['contact-manager'](http://aurelia.io/hub.html#/doc/article/
 
 ## Warning
 - This is a work in progress project, not recommended to be run at production
-- Feel free to contribute
 
 ## Requirements
 - NodeJS
