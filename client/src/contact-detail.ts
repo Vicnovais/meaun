@@ -19,8 +19,6 @@ export class ContactDetail {
   constructor(private api: WebAPI, private ea: EventAggregator) { }
 
   activate(params, routeConfig) {
-    debugger
-    var teste = 18;
     this.routeConfig = routeConfig;
 
     return this.api.getContactDetails(params.id).then(contact => {
