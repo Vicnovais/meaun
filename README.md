@@ -15,25 +15,30 @@ The base project is 'contact-manager' made with "Get Started" tutorial by Aureli
 - NodeJS
 - NPM
 - MongoDB (You can get a 500mb free tier at https://mlab.com)
+- Gulp
 
 ## Get Started
 
-- Make sure you have NodeJS installed
-- Make sure you have an instance of MongoDB active and running
+- Make sure you have **NodeJS** installed
+- Make sure you have an instance of **MongoDB** active and running
+- Make sure you have **gulp** installed globally:
+```shell
+npm install gulp-cli -g
+```
 - Download or clone this repository
-- Enter in the 'server' directory and run:
+- Enter in the **'server'** directory and run:
 ```shell
 npm install
 ```
-- Enter in the 'client' directory and run:
+- Enter in the **'client'** directory and run:
 ```shell
 npm install
 ```
-- Put your MongoDB connection string in the file: server/settings/database.js
+- Put your MongoDB connection string in the file: **server/settings/database.js**
 ```javascript
 mongoose.connect('<connectionString>');
 ```
-- After all dependencies are installed and your MongoBD string connection is set, enter in 'client' directory and run:
+- After all dependencies are installed and your MongoBD string connection is set, enter in **'client'** directory and run:
 ```shell
 gulp
 ```
@@ -41,7 +46,7 @@ gulp
 ```
 http://localhost:8080
 ```
-- All changes to client *.ts files will be listen, so you just need to wait to aurelia rebuild the bundles and reload your page
+- All changes to client ***.ts** files will be listen, so you just need to wait to aurelia rebuild the bundles and reload your page
 
 ## Authentication
 
@@ -54,6 +59,7 @@ http://localhost:8080/signup
 ```
 http://localhost:8080/signout
 ```
+- Note that this authentication system uses [PassportJS](http://passportjs.org/), with a simple local strategy using username/password and saving at MongoDB with encrypted password.
 
 ## API
 - To register a new endpoint you need a model and a controller
