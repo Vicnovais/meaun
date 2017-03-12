@@ -91,7 +91,7 @@ http://localhost:8080/signout
   
   [POST] localhost:8080/api/ControllerName -> post a new register using JSON format
   [DELETE] localhost:8080/api/ControllerName -> delete all registers
-  [DELETE] localhost:8080/api/ControllerName -> delete a single register based on id
+  [DELETE] localhost:8080/api/ControllerName/id -> delete a single register based on id
   ```
  * Note that you can manipulate all this actions, or add new ones, editing the file present in **server/arch/RestBuilder.js** and **server/controllers/BaseController.js**
   * Note that these routes are secured, which means you must be authenticated to be able to access them.
